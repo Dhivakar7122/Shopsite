@@ -1,0 +1,32 @@
+.nav{
+    display: flex;
+    justify-content: space-around;
+    font-weight: 500px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    background-color:darkslategray;
+    position:sticky;
+    top: 0;
+    z-index: 1000;
+}
+.navite{
+    text-decoration: none;
+    margin-top: 15px;
+    padding: 10px;
+    color: white;
+}
+.logo{
+    height: 80px;
+    width: 80px;
+    align-items: center;
+
+}
+.signup{
+    height: fit-content;
+    width: 80px;
+    border-radius: 50px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color:darkgreen;
+}

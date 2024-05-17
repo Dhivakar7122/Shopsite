@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nixie+One&family=Poetsen+One&display=swap');
+
+.header{
+    font-size: 80px;
+    font-style:inherit;
+    color:goldenrod;
+}
+.body1{
+    background-image: url('../Images/bacground1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    padding: 50px; 
+    color: white; 
+    text-align: center;  
+}
+.home1img{
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    flex-direction: row;
+    gap: 20px;
+   
+}
+img{
+    border-radius: 20px;
+    padding-left: 10px;
+}
+.homep1{
+    font-size: 40px;
+    font-weight: 1000px;
+    font-family: "Nixie One", system-ui;
+    color: black;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.para1{
+    font-size: 50px;
+    font-weight:1000px;
+}
+.aero{
+   height: 80px;
+}
+.body2{
+    margin-top: 10px;
+    background-image: url('../Images/background2.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.home2img{
+    display: inline-flex;
+    flex-direction: row;
+}
+.homep2{
+    font-size: 40px;
+    font-weight: 1000px;
+    font-family: "poetsen";
+    color: black;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+.order{
+    margin-top: 50px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.ordercon{
+    font-size: 30px;
+    font-weight: 1000px;
+    font-family: "Nixie One", system-ui;
+    background-color: bisque;
+}
+.orderbtn{
+   padding: 10px;
+   padding-left: 30px;
+   padding-right: 30px;
+   border-radius: 15px;
+   background-color: darkgreen;
+   color: white;
+   font-size: 25px;
+
+}
