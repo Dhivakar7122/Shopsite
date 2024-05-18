@@ -1,0 +1,141 @@
+.product1{
+    background-image: url('../Images/backprod.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.p1body1, .p2body{
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.p1h1{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    background: rgb(9,121,33);
+    background: linear-gradient(90deg, rgba(9,121,33,0.8015581232492998) 23%, rgba(2,24,6,1) 100%);
+    color: white;
+}
+.p1h2{
+    font-size: 35px;
+    font-weight: 400px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.p1p{
+    font-size: 25px;
+    line-height: 1.2;
+    text-align: justify;
+    padding-left: 20px;
+    margin: 0;
+}
+.p2body{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;  
+    padding: 20px;
+
+}
+.p2b1{
+    margin-top: 20px;
+}
+.p2h2{
+    font-size: 25px;
+    margin: 0;
+    text-align: left;
+
+}
+.p2p{
+    font-size: 18px;
+    font-weight: 400px;
+    font-style: oblique;
+    line-height: 1.2;
+    text-align: justify;
+    padding-left: 20px;
+    margin: 0;
+}
+.p2h12{
+    text-align: left;
+    margin-bottom: 20px;
+    font-size:30px;
+}
+.p2b2 img{
+    height: 400px;
+    width: 400px;
+}
+.ownprod{
+    text-align: left;
+    /* margin-top: 10px; */
+}
+.normalpro{
+    display: flex;
+    flex-direction: row;
+
+}
+.ncon{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.9);
+}
+.elachi{
+    display: flex;
+    flex-direction: row;
+}
+.elachicon{
+    margin-top: 20px;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.9);
+  
+}
+.naturaltea{
+    display: flex;
+    flex-direction: row;
+}
+.pordercon{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.orderquote{
+    background-color: burlywood;
+    padding: 20px;
+    border-radius: 30px;
+    width: fit-content;
+}
+.porderbtn{
+   margin-top: 35px;
+   font-size: 25px;
+   height: fit-content;
+   border-radius: 15px;
+   padding-left: 30px;
+   padding-right: 30px;
+   background-color: rgba(2,24,6,1);
+   border: none;
+   color: white;
+
+}
+.naturalteacon{
+    margin-top: 20px;
+    margin-left: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.9);
+}
+.ownprod{
+    background-image: url('../Images/product2backdrop.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
