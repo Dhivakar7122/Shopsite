@@ -12,7 +12,7 @@ import { FaCartArrowDown } from "react-icons/fa";
 
 export default function Product() {
   const handleclick=()=>{
-    Navigate('/order')
+    Navigate('/signup')
   }
   return (
     <div>
@@ -63,7 +63,7 @@ export default function Product() {
         </ol>
         <div className='pordercon'>
         <h3 className='orderquote'>Order Normal Tea!!!</h3>
-        <button className='porderbtn'><FaCartArrowDown /></button> 
+        <button className='porderbtn' onClick={handleclick}><FaCartArrowDown /></button> 
         </div>
         </div>
         <div className='imgs'>
@@ -91,7 +91,7 @@ export default function Product() {
         </ol>
         <div className='pordercon'>
         <h3 className='orderquote'>Order Elachi Tea!!!</h3>
-        <button className='porderbtn'><FaCartArrowDown /></button> 
+        <button className='porderbtn' onClick={handleclick}><FaCartArrowDown /></button> 
         </div>
         </div>
         <div className='elachiimg'>
@@ -118,7 +118,7 @@ export default function Product() {
         </ol>
         <div className='pordercon'>
         <h3 className='orderquote'>Order Naturalcare Tea!!!</h3>
-        <button className='porderbtn'><FaCartArrowDown /></button> 
+        <button className='porderbtn' onClick={handleclick}><FaCartArrowDown /></button> 
         </div>
         </div>
         <div className='naturalimg'>
