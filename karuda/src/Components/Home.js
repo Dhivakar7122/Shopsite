@@ -3,13 +3,14 @@ import estate from '../Images/estate1.jpg'
 import estate1 from '../Images/estate2.jpg'
 import aero from '../Images/aero.png'
 import home from '../Css/home.css'
-import { Navigate } from 'react-router-dom'
+import { Navigate, useNavigate } from 'react-router-dom'
 
 
 export default function Home() {
+    const navigate=useNavigate()
 
     const handleclick=()=>{
-        Navigate('/order')
+        navigate('/signup')
     }
   return (
     <div>

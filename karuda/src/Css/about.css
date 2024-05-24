@@ -1,0 +1,20 @@
+.aboutcont{
+    background: rgb(215,236,214);
+    background: linear-gradient(49deg, rgba(215,236,214,1) 52%, rgba(153,247,146,1) 100%);
+    padding: 10px 10px 10px ;
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 100px;
+    text-align: justify;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+.ab-h1{
+    font-size: 39px;
+}
+.ab-p1{
+    font-size: larger;
+}

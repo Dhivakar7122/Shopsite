@@ -4,15 +4,15 @@ import tcup from '../Images/teacup1.png'
 import tdust1 from '../Images/teapro2.png'
 import elachi1 from '../Images/elachitea1.png'
 import nct1 from '../Images/naturaltea1.png'
-import { Navigate } from 'react-router-dom'
+import { Navigate, useNavigate } from 'react-router-dom'
 import { FaCartArrowDown } from "react-icons/fa";
 
 
 
-
 export default function Product() {
+  const navigate=useNavigate()
   const handleclick=()=>{
-    Navigate('/signup')
+   navigate('/signup')
   }
   return (
     <div>
@@ -72,6 +72,9 @@ export default function Product() {
       </div>
       {/* Normal Tea closed */}
       <div className='elachi'>
+      <div className='elachiimg'>
+          <img src={elachi1} alt='no image'/>
+        </div>
         <div className='elachicon'>
         <h2>Elachi Tea</h2>
         <h3>Description:</h3>
@@ -94,9 +97,7 @@ export default function Product() {
         <button className='porderbtn' onClick={handleclick}><FaCartArrowDown /></button> 
         </div>
         </div>
-        <div className='elachiimg'>
-          <img src={elachi1} alt='no image'/>
-        </div>
+      
       </div>
       <div className='naturaltea'>
         <div className='naturalteacon'>
