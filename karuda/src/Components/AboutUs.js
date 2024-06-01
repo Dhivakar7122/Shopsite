@@ -1,6 +1,6 @@
 import React from 'react'
 import aboutcss from '../Css/about.css'
-import tea from '../Images/about1.jpg'
+// import tea from '../Images/about1.jpg'
 
 export default function AboutUs() {
   return (
@@ -10,9 +10,9 @@ export default function AboutUs() {
       <h1 className='ab-h1'>AboutUs</h1>
       <p className='ab-p1'>Welcome to <b>Karuda Tea</b>, your number one source for premium tea varieties. 
      We are dedicated to providing you with the finest quality teas, with a focus on freshness, exceptional taste, and customer satisfaction.</p>
-      <div className='ab1-2'>
+      {/* <div className='ab1-2'>
       <img src={tea}/>
-      </div>
+      </div> */}
       </div> 
      <div className='ab2'>
      <h1 className='ab-h2'>Our Story</h1> 
