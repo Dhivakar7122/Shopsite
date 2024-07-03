@@ -1,89 +1,91 @@
+/* home.css */
 
-@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nixie+One&family=Poetsen+One&display=swap');
-
-.header{
-    font-size: 80px;
-    font-style:inherit;
-    color:goldenrod;
+.header {
+    font-size: 5vw; /* Responsive font size */
+    color: goldenrod;
 }
-.body1{
+
+.body1 {
     background-image: url('../Images/bacground1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
-    padding: 50px; 
+    padding: 5% 10%; /* Responsive padding */
     color: white; 
-    text-align: center;  
+    text-align: center;
 }
-.home1img{
-    margin: 0;
-    padding: 0;
-    display: inline-flex;
-    flex-direction: row;
-    gap: 20px;
-   
+
+.home1img {
+    margin-top: 20px;
 }
-img{
+
+.home1img img {
+    width: 100%;
+    max-width: 100%; /* Responsive image width */
+    height: auto; /* Maintain aspect ratio */
     border-radius: 20px;
-    padding-left: 10px;
 }
-.homep1{
-    font-size: 40px;
-    font-weight: 1000px;
-    font-family: "Nixie One", system-ui;
+
+.homep1 {
+    font-size: 2.5vw; /* Responsive font size */
     color: black;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-.para1{
-    font-size: 50px;
-    font-weight:1000px;
+
+.ibwpara {
+    padding: 5% 10%; /* Responsive padding */
+    background-color: #f0f0f0; /* Light background */
+    text-align: center;
 }
-.aero{
-   height: 80px;
+
+.ibwpara img.aero {
+    width: 80px;
+    height: auto;
 }
-.body2{
-    margin-top: 10px;
+
+.para1 {
+    font-size: 2vw; /* Responsive font size */
+}
+
+.body2 {
+    padding: 5% 10%; /* Responsive padding */
     background-image: url('../Images/background2.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
 
+.home2img {
+    margin-top: 20px;
 }
-.home2img{
-    display: inline-flex;
-    flex-direction: row;
+
+.home2img img {
+    width: 100%;
+    max-width: 100%; /* Responsive image width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 20px;
 }
-.homep2{
-    font-size: 40px;
-    font-weight: 1000px;
-    font-family: "poetsen";
+
+.homep2 {
+    font-size: 2.5vw; /* Responsive font size */
     color: black;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
-.order{
-    margin-top: 50px;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-.ordercon{
-    font-size: 30px;
-    font-weight: 1000px;
-    font-family: "Nixie One", system-ui;
-    background-color: bisque;
-}
-.orderbtn{
-   padding: 10px;
-   padding-left: 30px;
-   padding-right: 30px;
-   border-radius: 15px;
-   background-color: darkgreen;
-   color: white;
-   font-size: 25px;
 
+.order {
+    padding: 5% 10%; /* Responsive padding */
+    margin-top: 50px;
+    background-color: #f9f9f9; /* Light background */
+    text-align: center;
+}
+
+.ordercon {
+    font-size: 2vw; /* Responsive font size */
+    color: darkgreen;
+}
+
+.orderbtn {
+    padding: 15px 30px;
+    border-radius: 15px;
+    background-color: darkgreen;
+    color: white;
+    font-size: 2vw; /* Responsive font size */
 }

@@ -1,32 +1,40 @@
-.nav{
-    display: flex;
-    justify-content: space-around;
-    font-weight: 500px;
-    font-size: 20px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-decoration: none;
-    background-color:darkslategray;
-    position:sticky;
-    top: 0;
-    z-index: 1000;
-}
-.navite{
-    text-decoration: none;
-    margin-top: 15px;
-    padding: 10px;
-    color: white;
-}
-.logo{
-    height: 80px;
-    width: 80px;
-    align-items: center;
+/* navbar.css */
 
+.nav {
+    background-color: darkslategray;
 }
-.signup{
-    height: fit-content;
-    width: 80px;
-    border-radius: 50px;
-    padding: 10px;
-    margin-bottom: 10px;
-    background-color:darkgreen;
+
+.navbar-brand img {
+    height: 60px; /* Adjust height as needed */
+    width: auto; /* Maintain aspect ratio */
+}
+
+.nav-link {
+    color: white; /* Set default text color */
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.nav-link.active {
+    color: gold; /* Set active link text color */
+}
+
+.signup {
+    background-color: darkgreen;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+    .nav-link {
+        margin-top: 10px; /* Adjust spacing for smaller screens */
+        padding: 10px; /* Adjust padding for smaller screens */
+        display: block;
+        text-align: center;
+    }
+
+    .signup {
+        margin: 10px 0;
+    }
 }
