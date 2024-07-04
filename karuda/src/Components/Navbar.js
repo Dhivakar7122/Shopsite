@@ -7,14 +7,14 @@ import { Container, Navbar as BootstrapNavbar } from 'react-bootstrap';
 
 export default function Navbar() {
     return (
-        <BootstrapNavbar expand="lg" className="nav">
+        <BootstrapNavbar expand="lg" className="nav sticky-top bg-white">
             <Container>
-                <NavLink to='/' className='navbar-brand'>
+                <NavLink to='/' className='navbar-brand pl-10'>
                     <img className='logo' src={Logo} alt='Logo' />
                 </NavLink>
                 <BootstrapNavbar.Toggle aria-controls="basic-navbar-nav" />
                 <BootstrapNavbar.Collapse id="basic-navbar-nav" className="justify-content-center">
-                    <ul className="navbar-nav">
+                    <ul className="navbar-nav d-flex">
                         <li className="nav-item">
                             <NavLink exact to='/' className='nav-link' activeClassName='active'>Home</NavLink>
                         </li>

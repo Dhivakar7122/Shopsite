@@ -16,12 +16,13 @@ export default function Home() {
     return (
         <Container fluid>
             <div className='body1'>
-                <h1 className='header'>Welcome To Karuda Tea</h1>
                 <Row className='home1img'>
                     <Col md={6}>
-                        <img src={estate} alt='no Image' className='img-fluid rounded' />
+                    <h1 className='header'><span>Welcome To</span> Karuda Tea</h1>
+                        {/* <img src={estate} alt='no Image' className='img-fluid rounded' /> */}
                     </Col>
                     <Col md={6}>
+                       
                         <p className='homep1'>Discover the finest teas crafted with passion and care. Our teas are a testament to our dedication to quality and flavor, meticulously sourced from the best tea gardens around the world. Each sip tells a story of tradition and excellence, bringing you the rich heritage of tea culture.</p>
                     </Col>
                 </Row>

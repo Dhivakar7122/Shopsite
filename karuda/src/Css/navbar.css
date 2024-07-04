@@ -1,23 +1,46 @@
 /* navbar.css */
 
-.nav {
-    background-color: darkslategray;
-}
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 
 .navbar-brand img {
-    height: 60px; /* Adjust height as needed */
+    height: 100px; /* Adjust height as needed */
     width: auto; /* Maintain aspect ratio */
 }
-
+.navbar-nav{
+    padding-left: 15rem !important ;
+    align-items: center !important;
+    justify-content: space-between !important;
+}
 .nav-link {
-    color: white; /* Set default text color */
+    color: #1c5c48 !important;
+    font-size: x-large !important;
     padding: 10px 15px;
     text-decoration: none;
+    position: relative; /* Ensures relative positioning for pseudo-element */
+}
+.nav-link{
+        font-family: "Abel", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+}
+.nav-link.signup{
+
 }
 
-.nav-link.active {
-    color: gold; /* Set active link text color */
+.nav-link:hover {
+    text-decoration: none; /* Remove default underline */
 }
+
+.nav-link:hover::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px; /* Adjust to align underline position */
+    width: 100%;
+    height: 2px;
+    background-color:#62866c;
+}
+
 
 .signup {
     background-color: darkgreen;
