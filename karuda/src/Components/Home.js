@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import estate from '../Images/estate1.jpg';
-import estate1 from '../Images/estate2.jpg';
+import sideimg from '../Images/sideimg.jpg';
 import aero from '../Images/aero.png';
 import '../Css/home.css'; // Your existing custom CSS file
 import { useNavigate } from 'react-router-dom';
@@ -17,9 +17,10 @@ export default function Home() {
         <Container fluid>
             <div className='body1'>
                 <Row className='home1img'>
-                    <Col md={6}>
-                    <h1 className='header'><span>Welcome To</span> Karuda Tea</h1>
-                        {/* <img src={estate} alt='no Image' className='img-fluid rounded' /> */}
+                    <Col md={6} className='d-flex align-items-center'>
+                    <h1 className='header'>
+                <span className='text-sm row mx-5 px-5'>Welcome To</span> Karuda Tea
+            </h1>
                     </Col>
                     <Col md={6}>
                        
@@ -42,10 +43,10 @@ export default function Home() {
             <div className='body2'>
                 <Row className='home2img'>
                     <Col md={6}>
-                        <p className='homep2'>At Teadust Shop, we believe that a great cup of tea can transform ordinary moments into extraordinary experiences. That’s why we’re committed to using only the finest ingredients and sustainable practices. Join us in celebrating the art of tea-making and elevate your tea-drinking experience to new heights.</p>
+                        <p className='homep2'>At Teadust Shop, we believe that a great cup of tea can transform ordinary moments into extraordinary experiences. That’s why we’re committed to using only the finest ingredients and sustainable practices. Join us in celebrating the art of<span></span> tea-making and elevate your<span> </span> tea-drinking experience to new heights.</p>
                     </Col>
                     <Col md={6}>
-                        <img src={estate1} alt='no image' className='img-fluid rounded' />
+                        <img src={sideimg} alt='no image' className='img-fluid' />
                     </Col>
                 </Row>
             </div>

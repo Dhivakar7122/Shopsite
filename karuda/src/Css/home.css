@@ -1,14 +1,29 @@
-/* home.css */
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-.header {
-    font-size: 5vw; /* Responsive font size */
+
+/* General Styles */
+body {
     font-family: "Poppins", sans-serif;
-    color: white;
+    margin: 0;
+    padding: 0;
 }
 
+/* Header Section */
+.header {
+    font-size: 5vw;
+     /* Responsive font size */
+    color: white;
+    text-align: center;
+}
+.text-sm{
+    font-size: 2vw; /* Smaller font size for "Welcome To" */
+    display: block; /* Ensures "Welcome To" is on a new line */
+    color: white;
+
+}
+
+/* First Section */
 .body1 {
     background-image: url('../Images/teaes.jpg');
-    opacity: 20px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
@@ -16,7 +31,6 @@
     color: white; 
     text-align: center;
 }
-
 
 .home1img img {
     width: 100%;
@@ -26,24 +40,17 @@
 }
 
 .homep1 {
-    padding-top: 10px !important;
-    font-size: 1.5vw; /* Responsive font size */
-    font-family: "Poppins", sans-serif;
+    padding-top: 10px;
+    font-size: 2vw; 
+    /*Responsive font size*/
     font-weight: 400;
-    font-style: normal;
-    color: rgb(241, 239, 239);
-    /* backdrop-filter: blur(50px);  */
-    /* Adjust blur amount as needed */
-    /* -webkit-backdrop-filter: blur(15px); */
-     /* For Safari */
-    /* backdrop-filter: blur(10px); */
-     /* For future-proofing */
-    /* background-color: rgba(158, 156, 156, 0.322); */
+    color: rgba(241, 239, 239, 0.9);
 }
 
+/* Second Section */
 .ibwpara {
     padding: 5% 10%; /* Responsive padding */
-    background-color: #f0f0f0; /* Light background */
+    /* Light background */
     text-align: center;
 }
 
@@ -54,32 +61,31 @@
 
 .para1 {
     font-size: 2vw; /* Responsive font size */
+    font-family: "Poppins", sans-serif;
 }
 
+/* Third Section */
 .body2 {
-    padding: 5% 10%; /* Responsive padding */
-    background-image: url('../Images/background2.jpeg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.home2img {
-    margin-top: 20px;
+    /* padding: 5% 10%; */
+     /* Responsive padding */
+    overflow: hidden;
+    background-color: #1c5b48;
 }
 
 .home2img img {
     width: 100%;
     max-width: 100%; /* Responsive image width */
     height: auto; /* Maintain aspect ratio */
-    border-radius: 20px;
+    /* border-radius: 20px; */
 }
 
 .homep2 {
-    font-size: 2.5vw; /* Responsive font size */
-    color: black;
+    padding: 16% 10%;
+    font-size: 1.4vw; /* Responsive font size */
+    color: white;
 }
 
+/* Order Section */
 .order {
     padding: 5% 10%; /* Responsive padding */
     margin-top: 50px;
@@ -98,4 +104,31 @@
     background-color: darkgreen;
     color: white;
     font-size: 2vw; /* Responsive font size */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .header {
+        font-size: 6vw; /* Adjust as needed */
+    }
+    
+    .homep1 {
+        font-size: 3vw;
+    }
+
+    .para1 {
+        font-size: 3vw;
+    }
+
+    .homep2 {
+        font-size: 3vw;
+    }
+
+    .ordercon {
+        font-size: 3vw;
+    }
+
+    .orderbtn {
+        font-size: 3vw;
+    }
 }

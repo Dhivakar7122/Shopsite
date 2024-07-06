@@ -1,73 +1,104 @@
-.footerdiv{
-    margin-top: 20px;
-}
+/* footer.css */
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Styling for footer sections */
 .footer {
-    background-color: darkslategray;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-}
-
-.footer-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 20px;
-}
-
+    font-family: "Poppins", sans-serif;
+    background-color: #333;
+  }
+ 
 .footer-section {
-    flex: 1;
-    padding: 10px;
-    min-width: 200px;
-}
-
-.footer-section h2 {
-    margin-bottom: 10px;
-    font-size: 1.5em;
-}
-
-.footer-section p, .footer-section ul, .footer-section a {
-    font-size: 1em;
-    margin: 5px 0;
-}
-
-.footer-section ul {
-    list-style: none;
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    z-index: 1;
+  }
+  
+  .footer-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    z-index: 1;
+  }
+  
+  .footer-section p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    z-index: 1;
+  }
+  
+  .footer-section ul {
+    list-style-type: none;
     padding: 0;
-}
-
-.footer-section ul li {
-    margin: 5px 0;
-}
-
-.footer-section ul li a {
-    color: white;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section a {
+    color: #fff;
     text-decoration: none;
-    transition: color 0.3s;
-}
-
-.footer-section ul li a:hover {
-    color: lightgray;
-}
-
-.social-icon {
-    margin: 0 10px;
-    font-size: 1.5em;
-    color: white;
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
-.social-icon:hover {
-    color: lightgray;
-}
-
-.footer-bottom {
-    margin-top: 20px;
-    font-size: 0.9em;
-}
-.leaf{
+    transition: color 0.3s ease;
+  }
+  
+  .footer-section a:hover {
+    color: #ccc;
+  }
+  
+  /* Styling for social icons */
+  .social-icon {
+    display: inline-block;
+    font-size: 1.2rem;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    color: #ccc;
+  }
+  
+  /* Styling for footer bottom */
+  .footer-bottom {
+    background-color: #333;
+    padding: 10px 0;
+  }
+  
+  .footer-bottom .text-white {
+    font-size: 0.8rem;
+  }
+  .leaf{
     height: 100px;
-}
+    width: auto;
+  }
+  /* Media queries for responsiveness */
+  @media (max-width: 1200px) {
+    .footer {
+      background-size: 100% 100%; /* Adjust background size for larger screens to cover fully */
+    }
+  }
+  @media (max-width: 768px) {
+    .footer {
+      background-size: cover; /* Revert to cover for smaller screens */
+    }
+
+  }
+  @media (max-width: 992px) {
+    .footer-section {
+      text-align: center;
+    }
+  
+    .footer-section.px-5 {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .footer-section {
+      margin-bottom: 30px;
+    }
+  
+    .footer-section.links ul {
+      text-align: center;
+    }
+  }
+  
