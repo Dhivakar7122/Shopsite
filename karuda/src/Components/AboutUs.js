@@ -1,17 +1,19 @@
 import React from 'react';
 import '../Css/about.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Container } from 'react-bootstrap';
  // Assuming this is where your custom CSS is located
 
 export default function AboutUs() {
   return (
-    <div className='container'> {/* Add a Bootstrap container for proper spacing */}
+    <Container fluid>
+ {/* Add a Bootstrap container for proper spacing */}
       <div className='aboutcont'>
         <div className='about'> 
           <div className='ab1'>
             <h1 className='ab-h1'>About Us</h1>
             <p className='ab-p1'>
-              Welcome to <b>Karuda Tea</b>, your number one source for premium tea varieties. We are dedicated to providing you with the finest quality teas, with a focus on freshness, exceptional taste, and customer satisfaction.
+              Welcome to Karuda Tea, your number one source for premium tea varieties. We are dedicated to providing you with the finest quality teas, with a focus on freshness, exceptional taste, and customer satisfaction.
             </p>
           </div>
           {/* Continue with other sections similarly */}
@@ -45,6 +47,7 @@ export default function AboutUs() {
           </div>
         </div>
       </div>
-    </div>
+  
+    </Container>
   );
 }

@@ -27,9 +27,9 @@ export default function Navbar() {
                         <li className="nav-item">
                             <NavLink to='/contact' className='nav-link' activeClassName='active'>Contact Us</NavLink>
                         </li>
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <NavLink to='/signup' className='nav-link signup' activeClassName='active'>Signup</NavLink>
-                        </li>
+                        </li> */}
                     </ul>
                 </BootstrapNavbar.Collapse>
             </Container>

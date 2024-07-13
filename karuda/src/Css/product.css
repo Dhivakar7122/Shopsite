@@ -1,120 +1,69 @@
-/* product.css */
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 /* General styling */
 .product1 {
-  background-color: #c2edc2;
-  overflow: hidden;
   font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
 }
+.row1{
+background-color: #1c5b48;
+/* padding-right: 0 !important;
+padding-top: 5px !important; */
+}
+
+/* Heading and paragraph styles */
 .p1h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: bold;
-  color: #333;
+  color: white;
 }
 
 .p1h2 {
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: bold;
-  color: #333;
+  color: white;
 }
 
-.p1p {
-  font-size: 1.1rem;
-  color: #555;
+.p1p, .p2p {
+  font-size: 1rem;
+  color: white;
 }
 
-/* Image styling */
-.chai {
-  height: auto; /* Ensures the image height adjusts proportionally */
+.p2h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+/* Image styles */
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Product section styles */
+.ownprod, .elachi, .naturaltea {
+  overflow: hidden;
   width: 100%;
   max-width: 100%;
-}
-/* Section 2 styling */
-.p2h2 {
-  font-size: 2rem;
-  font-weight: bold;
-  color: #333;
+  padding-top: 20px;
 }
 
-.p2p {
-  font-size: 1.1rem;
-  color: #555;
-}
-
-/* Product sections styling */
-.ownprod,
-.elachi,
-.naturaltea {
-  padding: 40px;
-  /* margin-top: 20px; */
-}
-
-.ownprod {
-  background-color: #D9B08C;
-}
-
-.elachi {
-  background-color: #f9f9f9;
-}
-
-.naturaltea {
-  background-color: #D1E8E2;
-}
-
-/* Product details styling */
-.normalpro,
-.elachicon,
-.naturalteacon {
-  border: 1px solid #ddd;
+.normalpro, .elachicon, .naturalteacon {
+  /* border: 1px solid #ddd; */
   padding: 20px;
   margin-bottom: 20px;
 }
 
-.normalpro h2,
-.elachicon h2,
-.naturalteacon h2 {
-  font-size: 2.5rem;
-  font-weight: bold;
-  color: #333;
-}
-
-.normalpro h3,
-.elachicon h3,
-.naturalteacon h3 {
-  font-size: 1.8rem;
-  font-weight: bold;
-  color: #333;
-}
-
-.normalpro p,
-.elachicon p,
-.naturalteacon p,
-.normalpro ul,
-.elachicon ul,
-.naturalteacon ul,
-.normalpro ol,
-.elachicon ol,
-.naturalteacon ol {
-  font-size: 1.1rem;
-  color: #555;
-}
-
-.orderquote {
+.normalpro h2, .elachicon h2, .naturalteacon h2 {
   font-size: 1.5rem;
   font-weight: bold;
   color: #333;
 }
 
-.porderbtn {
-  margin-top: 10px;
-  background-color: #007bff;
-  border: none;
-  color: #fff;
-  padding: 10px 20px;
-  font-size: 1.2rem;
-  cursor: pointer;
-}
-
-.porderbtn:hover {
-  background-color: #0056b3;
+.normalpro h3, .elachicon h3, .naturalteacon h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333
 }

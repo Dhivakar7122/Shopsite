@@ -3,10 +3,10 @@ import { FaCartArrowDown } from 'react-icons/fa';
 import { useNavigate } from 'react-router-dom';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import tcup from '../Images/teacup1.png';
-import tdust1 from '../Images/teapro2.png';
-import elachi1 from '../Images/elachitea1.png';
-import nct1 from '../Images/naturaltea1.png';
-import chai from '../Images/teapot.jpg'
+import tdust1 from '../Images/steamy-black-coffee-rustic-wooden-mug-generated-by-ai.jpg';
+import elachi1 from '../Images/teaelachi.jpg';
+import nct1 from '../Images/sideimg.jpg';
+import chai from '../Images/teapot.jpg';
 import '../Css/product.css';
 
 export default function Product() {
@@ -18,24 +18,27 @@ export default function Product() {
 
   return (
     <Container fluid className="product1">
-      <Row>
+      <Row className='row1'>
         <Col md={6}>
-          <h1 className="p1h1">Our Products</h1>
-          <h2 className="p1h2">Welcome to Our Teadust Selection</h2>
-          <p className="p1p">
-            At Karuda Tea, we believe that every cup of tea tells a story. Our teadust collection is a testament to the rich heritage and tradition of tea making, offering you an opportunity to savor the finest blends that nature has to offer. Whether you are a seasoned tea enthusiast or a newcomer to the world of tea, our premium teadust collection promises an unparalleled experience of flavor, aroma, and wellness.
-          </p>
-          <h2 className="p2h2">Discover the Rich Flavors and Unique Blends</h2>
-          <p className="p2p">
-            Our teadust selection is meticulously curated to bring you the best of what tea can offer. Each blend is crafted with passion and precision, ensuring that every sip is a journey of taste and tranquility. From the robust and invigorating flavors of our Normal Estate Tea to the exotic and aromatic notes of our Elachi Tea, and the soothing and healthful qualities of our Natural Care Tea, there is something for everyone.
-          </p>
+          <div className="text-container">
+            <h1 className="p1h1">Our Products</h1>
+            <h2 className="p1h2">Welcome to Our Teadust Selection</h2>
+            <p className="p1p">
+              At Karuda Tea, we believe that every cup of tea tells a story. Our teadust collection is a testament to the rich heritage and tradition of tea making, offering you an opportunity to savor the finest blends that nature has to offer. Whether you are a seasoned tea enthusiast or a newcomer to the world of tea, our premium teadust collection promises an unparalleled experience of flavor, aroma, and wellness.
+            </p>
+            <h2 className="p2h2">Discover the Rich Flavors and Unique Blends</h2>
+            <p className="p2p">
+              Our teadust selection is meticulously curated to bring you the best of what tea can offer. Each blend is crafted with passion and precision, ensuring that every sip is a journey of taste and tranquility. From the robust and invigorating flavors of our Normal Estate Tea to the exotic and aromatic notes of our Elachi Tea, and the soothing and healthful qualities of our Natural Care Tea, there is something for everyone.
+            </p>
+          </div>
         </Col>
         <Col md={6}>
-          <img src={chai} className="chai" alt="Chai Image" />
+          <img src={chai} className="img-fluid" alt="Chai Image" />
         </Col>
       </Row>
+
       <Row className="ownprod">
-        <Col md={6} className="normalpro ncon p-4">
+        <Col md={6} className="normalpro p-4">
           <h2>Normal Estate Tea</h2>
           <h3>Description:</h3>
           <p>Our Normal Estate Tea is a classic blend, offering the purest and most traditional tea experience. This tea boasts a robust flavor and a delightful aroma, perfect for any time of the day.</p>

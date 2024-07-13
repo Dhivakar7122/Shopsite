@@ -3,9 +3,8 @@
 
 
 .aboutcont{
-    background: rgb(215,236,214);
-    background: linear-gradient(49deg, rgba(215,236,214,1) 52%, rgba(153,247,146,1) 100%);
-    padding: 10px 10px 10px ;
+    font-family: "Poppins", sans-serif;
+    padding: 10px;
 } 
 .about{
    
@@ -14,8 +13,9 @@
    
 }
 .ab-p1{
-    font-size: larger;
-    font-family:Poppins;
+    font-size: 1.5rem;
+    background-color:  #1c5b48;
+    color: white;
 
 } 
 .ab2{
