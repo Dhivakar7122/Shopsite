@@ -17,28 +17,29 @@ export default function Product() {
   };
 
   return (
-    <Container fluid className="product1">
+    <Container fluid>
+      <div className='products'>
+      <div className='product1'>
       <Row className='row1'>
-        <Col md={6}>
-          <div className="text-container">
-            <h1 className="p1h1">Our Products</h1>
-            <h2 className="p1h2">Welcome to Our Teadust Selection</h2>
-            <p className="p1p">
+        <Col md={6} >
+            <h1 className="r1h1">Our Products</h1>
+            {/* <h2 className="r1h2">Welcome to Our Teadust Selection</h2> */}
+            <p className="r1p">
               At Karuda Tea, we believe that every cup of tea tells a story. Our teadust collection is a testament to the rich heritage and tradition of tea making, offering you an opportunity to savor the finest blends that nature has to offer. Whether you are a seasoned tea enthusiast or a newcomer to the world of tea, our premium teadust collection promises an unparalleled experience of flavor, aroma, and wellness.
             </p>
-            <h2 className="p2h2">Discover the Rich Flavors and Unique Blends</h2>
-            <p className="p2p">
-              Our teadust selection is meticulously curated to bring you the best of what tea can offer. Each blend is crafted with passion and precision, ensuring that every sip is a journey of taste and tranquility. From the robust and invigorating flavors of our Normal Estate Tea to the exotic and aromatic notes of our Elachi Tea, and the soothing and healthful qualities of our Natural Care Tea, there is something for everyone.
+            <h2 className="r1h2">Discover the Rich Flavors and Unique Blends</h2>
+            <p className="r1p">
+              Our teadust selection is meticulously curated to bring you the best of what tea can offer. 
             </p>
-          </div>
         </Col>
         <Col md={6}>
           <img src={chai} className="img-fluid" alt="Chai Image" />
         </Col>
       </Row>
-
-      <Row className="ownprod">
-        <Col md={6} className="normalpro p-4">
+      </div>
+      <div className='product2 my-2' >
+      <Row className='row2'>
+        <Col md={6}>
           <h2>Normal Estate Tea</h2>
           <h3>Description:</h3>
           <p>Our Normal Estate Tea is a classic blend, offering the purest and most traditional tea experience. This tea boasts a robust flavor and a delightful aroma, perfect for any time of the day.</p>
@@ -57,16 +58,17 @@ export default function Product() {
           </ol>
           <div className="pordercon">
             <h3 className="orderquote">Order Normal Tea!!!</h3>
-            <Button className="porderbtn" onClick={handleClick}><FaCartArrowDown /> Order Now</Button>
+            <Button className="porderbtn p-0" onClick={handleClick}><FaCartArrowDown /> Order Now</Button>
           </div>
         </Col>
-        <Col md={6}>
+        <Col md={6} className='p2img'>
           <img src={tdust1} className="img-fluid" alt="no Img" />
         </Col>
       </Row>
-
-      <Row className="elachi">
-        <Col md={6} className="elachicon p-4">
+      </div>
+      <div className='product2 my-2'>
+      <Row className='row3'>
+        <Col md={6}>
           <h2>Elachi Tea</h2>
           <h3>Description:</h3>
           <p>Our Elachi Tea is a unique blend that combines the boldness of tea with the exotic flavor of cardamom. This aromatic tea is perfect for those who love a hint of spice in their brew.</p>
@@ -85,16 +87,17 @@ export default function Product() {
           </ol>
           <div className="pordercon">
             <h3 className="orderquote">Order Elachi Tea!!!</h3>
-            <Button className="porderbtn" onClick={handleClick}><FaCartArrowDown /> Order Now</Button>
+            <Button className="porderbtn p-0" onClick={handleClick}><FaCartArrowDown /> Order Now</Button>
           </div>
         </Col>
         <Col md={6}>
           <img src={elachi1} className="img-fluid" alt="no image" />
         </Col>
       </Row>
-
-      <Row className="naturaltea">
-        <Col md={6} className="naturalteacon p-4">
+      </div>
+      <div className='product3 my-2'>
+      <Row className='row4'>
+        <Col md={6}>
           <h2>Natural Care Tea</h2>
           <h3>Description:</h3>
           <p>Our Natural Care Tea is a special blend designed for wellness and relaxation. It combines the goodness of elachi, dry ginger, and a selection of herbs to create a soothing and healthful tea.</p>
@@ -113,13 +116,20 @@ export default function Product() {
           </ol>
           <div className="pordercon">
             <h3 className="orderquote">Order Naturalcare Tea!!!</h3>
-            <Button className="porderbtn" onClick={handleClick}><FaCartArrowDown /> Order Now</Button>
+            <Button className="porderbtn p-0" onClick={handleClick}><FaCartArrowDown /> Order Now</Button>
           </div>
         </Col>
         <Col md={6}>
           <img src={nct1} className="img-fluid" alt="no image" />
         </Col>
       </Row>
+      </div>
+      {/* 
+
+      
+
+       */}
+       </div>
     </Container>
   );
 }

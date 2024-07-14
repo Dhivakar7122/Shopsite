@@ -1,24 +1,56 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
-.aboutcont{
-    font-family: "Poppins", sans-serif;
-    padding: 10px;
-} 
-.about{
-   
-}
-.ab-h1{
-   
-}
-.ab-p1{
-    font-size: 1.5rem;
-    background-color:  #1c5b48;
-    color: white;
-
-} 
-.ab2{
-   
+/* General styles */
+.aboutcont {
+  font-family: "Poppins", sans-serif;
+  padding: 10px;
 }
 
+.abrow1 {
+  border: 2px solid black;
+  background-color: #B80000;
+  color: white;
+  padding: 20px;
+}
+
+.abrow1 h1 {
+  font-size: 3vw; /* Responsive font size */
+}
+
+.abrow1 h2 {
+  font-size: 1.5vw; /* Responsive font size */
+}
+
+.carousel {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.carousel img {
+  width: 100%;
+}
+
+.about2 {
+  overflow: hidden;
+  background-color: #5F8670;
+  color: white;
+  padding: 20px;
+}
+
+.about2 h1 {
+  font-size: 3vw; /* Responsive font size */
+}
+
+.about2 ul {
+  font-size: 1.2vw; /* Responsive font size */
+}
+
+.about3 {
+  background-color: #820300;
+  color: white;
+  padding: 20px;
+}
+
+.about3 p {
+  font-size: 1.2vw; /* Responsive font size */
+}

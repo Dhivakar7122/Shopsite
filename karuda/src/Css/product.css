@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-/* General styling */
-.product1 {
+
+/* .product1 {
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
 }
 .row1{
+overflow: hidden;
 background-color: #1c5b48;
-/* padding-right: 0 !important;
-padding-top: 5px !important; */
+
 }
 
-/* Heading and paragraph styles */
+
 .p1h1 {
   font-size: 2rem;
   font-weight: bold;
@@ -36,13 +36,13 @@ padding-top: 5px !important; */
   color: white;
 }
 
-/* Image styles */
+
 .img-fluid {
   max-width: 100%;
   height: auto;
 }
 
-/* Product section styles */
+
 .ownprod, .elachi, .naturaltea {
   overflow: hidden;
   width: 100%;
@@ -51,7 +51,7 @@ padding-top: 5px !important; */
 }
 
 .normalpro, .elachicon, .naturalteacon {
-  /* border: 1px solid #ddd; */
+
   padding: 20px;
   margin-bottom: 20px;
 }
@@ -66,4 +66,185 @@ padding-top: 5px !important; */
   font-size: 1rem;
   font-weight: bold;
   color: #333
+}
+@media (max-width: 768px){
+  .p1h1 {
+    font-size: 6vw; 
+}
+.p1p {
+  font-size: 3vw;
+}
+} */
+ /* Style adjustments */
+ /* .products{
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+ }
+.product1 {
+  overflow: hidden;
+  background-color: #1c5b48;
+}
+.row1 img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    
+}
+.r1p{
+  font-size: 1.4vw;
+  color: white;
+  padding-left: 8px;
+}
+.r1h1{
+    font-size: 3vw;
+    color: white;
+    text-align: center;
+}
+.r1h2{
+    font-size: 2vw;
+    color: white;
+    text-align: center;
+}
+.product2{
+  overflow: hidden;
+}
+.row3 {
+  background-color: #ECFFE6;
+}
+.row2 .row3 .row4 h2 {
+  font-size: 2vw;
+}
+.row2 .row3 .row4 h3{
+  font-size: 1.5vw;
+}
+.row2 .row3 .row4 p{
+  font-size: 1vw;
+  padding-top: 2px;
+}
+.row2 .row3 .row4 li{
+  font-size: 1vw;
+}
+.row2 .row3 .row4 img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+
+@media (max-width: 768px) {
+  .r1h1 {
+    font-size: 6vw;
+  }
+  .r1p{
+    font-size: 3vw;
+  }
+  .r1h2{
+    font-size: 3vw;
+  }
+  .row2 .row3 .row4 h2 {
+    font-size: 3vw;
+  }
+  .row2 .row3 .row4 h3{
+    font-size: 3vw;
+  }
+  .row2 .row3 .row4 p{
+    font-size: 3vw;
+  }
+  .row2 .row3 .row4 li{
+    font-size: 3vw;
+  } */
+ 
+/* } */
+.products {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.product1 {
+  overflow: hidden;
+  background-color: #1c5b48;
+}
+
+.row1 img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.r1p {
+  font-size: 1.4vw; /* Responsive font size */
+  color: white;
+  padding-left: 8px;
+}
+
+.r1h1 {
+  font-size: 3vw;
+  color: white;
+  text-align: center;
+}
+
+.r1h2 {
+  font-size: 2vw;
+  color: white;
+  text-align: center;
+}
+
+.product2 {
+  overflow: hidden;
+}
+
+.row3 {
+  background-color: #ECFFE6;
+}
+
+.row2 .row3 .row4 h2 {
+  font-size: 2vw;
+}
+
+.row2 .row3 .row4 h3 {
+  font-size: 1.5vw;
+}
+
+.row2 .row3 .row4 p {
+  font-size: 1vw;
+  padding-top: 2px;
+}
+
+.row2 .row3 .row4 li {
+  font-size: 1vw;
+}
+
+.row2 .row3 .row4 img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .r1h1 {
+    font-size: 6vw;
+  }
+  .r1p {
+    font-size: 3vw;
+  }
+  .r1h2 {
+    font-size: 3vw;
+  }
+  .row2 .row3 .row4 h2 {
+    font-size: 3vw;
+  }
+  .row2 .row3 .row4 h3 {
+    font-size: 3vw;
+  }
+  .row2 .row3 .row4 p {
+    font-size: 3vw;
+  }
+  .row2 .row3 .row4 li {
+    font-size: 3vw;
+  }
 }
